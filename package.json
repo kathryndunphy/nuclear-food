@@ -1,0 +1,24 @@
+{
+  "name": "nuclear-food",
+  "version": "1.0.0",
+  "description": "everything served at this restaurant is microwaved frozen food",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihirkothari25/nuclear-food.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihirkothari25/nuclear-food/issues"
+  },
+  "homepage": "https://github.com/mihirkothari25/nuclear-food#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
