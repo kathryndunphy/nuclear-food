@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + '/thepowerplant.html'));
 });
 
 app.get('/tables', function(req, res) {
@@ -19,7 +19,7 @@ app.get('/tables', function(req, res) {
 });
 
 app.get('/reserve', function(req, res) {
-  res.sendFile(path.join(__dirname + '/reserve.html'));
+  res.sendFile(path.join(__dirname + '/Reservationform.html'));
 });
 
 app.post('/makeReservation', function(req, res) {
